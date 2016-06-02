@@ -2,6 +2,7 @@
 
 1. Data is loaded
 2. Data exploration & pre-processing
+  
   a. check the proportions of survivors based on port of entry
 
   b. check the proportion of survival in different classes
@@ -25,6 +26,7 @@
   i. lets create a variable called tic which has the alphabet initial in the cabin variable
 
 3. MODEL FITTING AND SELECTION
+ 
   a.logistic regression
     lets use validation set approach to select the best threshold for logistic regg. this logistic regg tells us that Pclass, sex, age, sibsp, and (sex & parch), papa play an important role in classification.
     the best prediction accuracy of logistic regression is 81.5 percent on the validation set using Pclass+Parch*Sex+Age+SibSp+tic+papa
@@ -39,5 +41,6 @@
     prediction accuracy in 81% at best with polynomial kernel in svms using Pclass+ Sex+ Age+ SibSp+Parch+Fare+Embarked on the validation set
     
 4. Prediction
+  
   the random forest showed the best prediction accuracy so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
     
