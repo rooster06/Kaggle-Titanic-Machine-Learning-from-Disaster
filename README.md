@@ -37,6 +37,8 @@
 
 3. MODEL FITTING AND SELECTION
  
+  I know ROC curves would be useful for model evaluation, but i did the threshold selection, mtry etc. manually, and evaluated using validation set. 
+ 
   a.logistic regression
     lets use validation set approach to select the best threshold for logistic regg. this logistic regg tells us that Pclass, sex, age, sibsp, and (sex & parch), papa play an important role in classification.
     the best prediction accuracy of logistic regression is 81.5 percent on the validation set using Pclass+Parch*Sex+Age+SibSp+tic+papa
