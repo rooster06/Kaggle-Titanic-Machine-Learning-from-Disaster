@@ -1,5 +1,7 @@
 # Kaggle-Titanic-Machine-Learning-from-Disaster
 
+https://www.kaggle.com/c/titanic
+
 1. Data is loaded
 2. Data exploration & pre-processing
   
