@@ -63,4 +63,6 @@
 4. Prediction
   
   the random forest showed the best prediction accuracy so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
+
+I achieved an accuracy of 0.79426 on kaggle, using one of these combination of variables in random forest prediction model.
     
