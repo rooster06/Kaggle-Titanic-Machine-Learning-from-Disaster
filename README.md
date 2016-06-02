@@ -10,9 +10,11 @@
   b. check the proportion of survival in different classes
   
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/PclassVsurv.png)  
+ 
   c. check the proportion of survival in diffent gender
   
      ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/SexVsurv.png)
+ 
   d. survials in different age groups: looks like a normal distribution, lda maybe?
   
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/deadVage.png)
@@ -40,18 +42,22 @@
     the best prediction accuracy of logistic regression is 81.5 percent on the validation set using Pclass+Parch*Sex+Age+SibSp+tic+papa
 
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/logit.png)
+ 
     b. Linear Discriminant Analysis
     lda gives a 80.5 percent predicition accuracy using Pclass+Sex*Parch+Age+SibSp+Fare+papa+tic+Embarked, the idea behind choosing lda was that the age variable seems to have a normal distribution,but oh well it dint seem to do any better
     
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/lda.png)
+ 
     c. random forest
     we get an 84.5% accuracy building a regression tree on Pclass+ Sex+ Age+ SibSp+Parch+Fare+Embarked+papa+tic with 3 predictors at every step
     
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/rf.png)
+ 
     d. svm
     prediction accuracy in 81% at best with polynomial kernel in svms using Pclass+ Sex+ Age+ SibSp+Parch+Fare+Embarked on the validation set
     
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/svm.png)
+
 4. Prediction
   
   the random forest showed the best prediction accuracy so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
