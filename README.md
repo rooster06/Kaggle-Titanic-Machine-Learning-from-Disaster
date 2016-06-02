@@ -4,6 +4,8 @@
 2. Data exploration & pre-processing
   
   a. check the proportions of survivors based on port of entry
+    
+    ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/embarkVsur.png)
 
   b. check the proportion of survival in different classes
   
