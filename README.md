@@ -74,4 +74,6 @@ https://www.kaggle.com/c/titanic
 
 This script gives an accuracy of 0.77990 on kaggle.
 I achieved a best accuracy of 0.79426 on kaggle, using a combination of the variables in script in random forest prediction model. I wrote over the combination of variables,and lost this best case combination and dont want to spend too much time for the project in exploring all possible combinations. Although, im not sure how accurate the scoring on kaggle is before the competition ends to validate this best score. 
+
+-P.R.
     
