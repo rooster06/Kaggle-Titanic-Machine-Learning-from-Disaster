@@ -73,7 +73,7 @@ https://www.kaggle.com/c/titanic
   the random forest showed the best prediction accuracy and AUC so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
 
 This script gives an accuracy of 0.77990 on kaggle.
-I achieved a best accuracy of 0.79426 on kaggle, using a combination of the variables generated in this script in random forest prediction model. I wrote over the combination of variables,and lost this best case combination and dont want to spend too much time for the project in exploring all possible combinations. Although, im not sure how accurate the scoring on kaggle is before the competition ends to validate this best score. 
+I achieved a best accuracy of 0.79426 on kaggle, using a combination of the variables generated in this script in random forest prediction model. I wrote over the combination of variables,and lost this best case combination and dont want to spend too much time for the project in exploring all possible combinations. Although, im not sure how accurate the scoring on kaggle is before the competition ends to validate this best score, so for all we know this script could overtake my best score in the end. 
 
 -P.R.
     
