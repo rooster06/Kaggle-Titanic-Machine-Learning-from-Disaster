@@ -61,10 +61,16 @@ https://www.kaggle.com/c/titanic
     prediction accuracy in 81% at best with polynomial kernel in svms using Pclass+ Sex+ Age+ SibSp+Parch+Fare+Embarked on the validation set
     
     ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/svm.png)
+    
+    ROC curves for the models for model evaluation:
+    
+    ![alt tag](https://github.com/rooster06/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/roc.png)
+    
+    The ROC curve for randomForest model has the largest AUC, so yay! random forest ftw!
 
 4. Prediction
   
-  the random forest showed the best prediction accuracy so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
+  the random forest showed the best prediction accuracy and AUC so lets use that formthe final predition, using Pclass+Sex+Age+SibSp+Parch+Fare+papa+Embarked, with mtry=3
 
 This script gives an accuracy of 0.77990 on kaggle.
 I achieved a best accuracy of 0.79426 on kaggle, using a combination of the variables in script in random forest prediction model. I wrote over the combination of variables,and lost this best case combination and dont want to spend too much time for the project in exploring all possible combinations. Although, im not sure how accurate the scoring on kaggle is before the competition ends to validate this best score. 
